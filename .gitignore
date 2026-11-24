@@ -1,0 +1,10 @@
+# build products
+build/
+# Python
+.venv/
+__pycache__/
+*.pyc
+# smoke-test and ad-hoc probe output is never analysed as data
+data/raw/smoke/
+data/raw/probe/
+.DS_Store
